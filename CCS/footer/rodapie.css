@@ -1,0 +1,30 @@
+/* Estilos del Footer del Portfolio */
+
+/* Estilos del titulo del footer */
+.rodapie_titulo {
+  padding: 1rem;
+  font-family: var(--Open_sans);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--Claro);
+}
+
+/* Estilos de las redes de contacto */
+.rodapie_redes{
+  display: inline-block;
+  padding: 0 0.7rem;
+  font-family: var(--Open_sans);
+  font-weight: 300;
+  font-size: 2rem;
+  color: var(--MedioClaro);
+  cursor: pointer;
+}
+
+/* Estilos del parrafo del rodapie */
+.rodapie_parrafo {
+  padding: .7rem;
+  font-family: var(--Open_sans);
+  font-weight: 400;
+  font-size: .9rem;
+  color: var(--MedioClaro);
+}

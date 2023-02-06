@@ -1,0 +1,42 @@
+/* Bloque del sidebar */
+.navegacion {
+  background: var(--BlackOut);
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 0px 0px 15px 15px var(--BoxOscuro);
+}
+
+/* estilos de UL */
+.navegacion_lista {
+  display: block;
+  text-align: center;
+}
+
+/* estilos de LI */
+.navegacion_item {
+  padding: 1.15rem 0;
+}
+
+/* estilos de A */
+.navegacion_link {
+  color: var(--Claro);
+  font-family: var(--Open_sans);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px var(--Oscuro);
+  transition: 50ms;
+}
+
+.navegacion_link:hover {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.navegacion_link.active {
+  color: var(--MedioClaro);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
