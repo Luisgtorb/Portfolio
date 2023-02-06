@@ -9,7 +9,7 @@
 .sobreMi_encabezado {
   display: flex;
   width: 85%;
-  margin: 10% auto;
+  margin: 2% auto;
   justify-content: space-between;
   align-items: center;
 }
